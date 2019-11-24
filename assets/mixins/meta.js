@@ -12,6 +12,7 @@ export default {
         { hid: 'og:description', property: 'og:description', content: this.meta.description },
         { hid: 'og:url', property: 'og:url', content: this.meta.url },
         { hid: 'og:image', property: 'og:image', content: this.meta.image },
+        { hid: 'twitter:card', property: 'twitter:card', content: 'summary_large_image' },
       ],
     }
   }
