@@ -26,3 +26,6 @@ deploy:
   local-dir: dist
   on:
     branch: master
+
+notifications:
+  email: false
