@@ -1,5 +1,9 @@
 <template>
-  <p>準備中</p>
+  <div>
+    <p>準備中</p>
+    <h1>こちらはMinecraftのゲーム内のルールです。利用規約も合わせてお読みください。</h1>
+    <v-btn to="/tos">利用規約</v-btn>
+  </div>
 </template>
 
 <script>
@@ -9,8 +13,8 @@ export default {
     data () {
       return {
       meta: {
-        title: 'よくある質問(FAQ)',
-        description: 'Orenge Minecraft ServerのFAQ',
+        title: 'ゲーム内のルール',
+        description: 'Orenge Minecraft Serverのルール',
         type: 'article',
         url: 'https://mc.akirin.xyz/faq',
         image: 'https://i.gyazo.com/1de1fb0a182d4dc785fb6fbad6e1ccb6.png',

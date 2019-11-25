@@ -71,6 +71,17 @@ export default {
           to: '/faq'
         },
         {
+          icon: 'mdi-minecraft',
+          title: 'ルール',
+          to: '/rule'
+        },
+        {
+          icon: 'mdi-book-open-page-variant',
+          title: '利用規約',
+          to: '/tos'
+        },
+        
+        {
           icon: 'mdi-gavel',
           title: 'BANリスト',
           to: '/ban'
