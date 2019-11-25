@@ -2,6 +2,8 @@
 
 > mc.akirin.xyz
 
+CIは当てになりません(失敗しても大体は通ってる)
+
 ## Build Setup
 
 ``` bash
