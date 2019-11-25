@@ -1,9 +1,10 @@
 {
-  "name": "mc",
+  "name": "orenge-minecraft-server",
   "version": "1.0.0",
+  "license": "SEE LICENSE IN LICENSE.md",
   "description": "mc.akirin.xyz",
   "author": "sousuke0422",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
