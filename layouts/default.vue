@@ -66,9 +66,14 @@ export default {
           to: '/settings'
         },*/
         {
-          icon: 'mdi-post-outline',
+          icon: 'mdi-frequently-asked-questions',
           title: 'よくある質問(FAQ)',
           to: '/faq'
+        },
+        {
+          icon: 'mdi-gavel',
+          title: 'BANリスト',
+          to: '/ban'
         }
       ],
       miniVariant: false,
