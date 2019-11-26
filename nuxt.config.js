@@ -30,6 +30,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/uikit',
     '~/plugins/vue-scrollto',
   ],
   /*
@@ -44,6 +45,7 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    '@nuxtjs/style-resources',
     '@nuxtjs/pwa',
   ],
   /*
@@ -72,6 +74,17 @@ export default {
         }
       }
     }
+  },
+  css: [
+    //uikit cssframework
+    // "uikit",
+    { src: '~/node_modules/uikit/dist/css/uikit.css' }
+    // ["nuxt-sass-resources-looader", "~/assets/sass/style.scss"]
+  ],
+  styleResources: {
+    sass: [
+      '~/assets/sass/style.scss'
+    ]
   },
   /*
   ** Build configuration
