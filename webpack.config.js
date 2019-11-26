@@ -1,4 +1,5 @@
 /*
+** 削除予定
 var path = require("path");
  
 module.exports = {

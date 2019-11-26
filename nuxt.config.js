@@ -30,7 +30,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '~/plugins/uikit',
+  //  '~/plugins/uikit',
     '~/plugins/vue-scrollto',
   ],
   /*
@@ -74,7 +74,7 @@ export default {
         }
       }
     }
-  },
+  },/*
   css: [
     //uikit cssframework
     // "uikit",
@@ -85,7 +85,7 @@ export default {
     sass: [
       '~/assets/sass/style.scss'
     ]
-  },
+  },*/
   /*
   ** Build configuration
   */
