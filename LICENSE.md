@@ -1,4 +1,4 @@
-# Orenge Server License
+# Orange Server License
 
 ---
 

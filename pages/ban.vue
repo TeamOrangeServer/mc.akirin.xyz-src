@@ -41,7 +41,7 @@ export default {
         ],
       meta: {
         title: 'BANリスト',
-        description: 'Orenge Minecraft ServerのBANリスト',
+        description: 'Orange Minecraft ServerのBANリスト',
         type: 'article',
         url: 'https://mc.akirin.xyz/banq',
         image: 'https://i.gyazo.com/1de1fb0a182d4dc785fb6fbad6e1ccb6.png',

@@ -15,7 +15,7 @@ export default {
       return {
       meta: {
         title: 'ニュース',
-        description: 'Orenge Minecraft Serverのニュース',
+        description: 'Orange Minecraft Serverのニュース',
         type: 'article',
         url: 'https://mc.akirin.xyz/news',
         image: 'https://i.gyazo.com/1de1fb0a182d4dc785fb6fbad6e1ccb6.png',

@@ -29,7 +29,7 @@
     </v-carousel>
     <br />
     <div class="text-center" id="top">
-      <h1 class="font-weight-regular">Orenge Serverにようこそ</h1>
+      <h1 class="font-weight-regular">Orange Serverにようこそ</h1>
       <v-lazy>
         <p>Team Orangeが提供するMinecraftサーバー</p>
       </v-lazy>
@@ -84,7 +84,7 @@
           },
           {
             src: 'https://i.gyazo.com/1de1fb0a182d4dc785fb6fbad6e1ccb6.png',
-            msg: 'Welcome to Orenge Server',
+            msg: 'Welcome to Orange Server',
             col: '#0000',
           },
           {
@@ -115,7 +115,7 @@
         ],
         meta: {
           title: 'ホーム',
-          description: 'Orenge Minecraft Server Webのホーム',
+          description: 'Orange Minecraft Server Webのホーム',
           type: 'website',
           url: 'https://mc.akirin.xyz/',
           image: 'https://i.gyazo.com/1de1fb0a182d4dc785fb6fbad6e1ccb6.png',

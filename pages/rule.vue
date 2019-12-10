@@ -14,7 +14,7 @@ export default {
       return {
       meta: {
         title: 'ゲーム内のルール',
-        description: 'Orenge Minecraft Serverのルール',
+        description: 'Orange Minecraft Serverのルール',
         type: 'article',
         url: 'https://mc.akirin.xyz/faq',
         image: 'https://i.gyazo.com/1de1fb0a182d4dc785fb6fbad6e1ccb6.png',
