@@ -47,7 +47,7 @@ const nuxtConfig: NuxtConfig = {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/style-resources',
-    '@nuxtjs/pwa',
+    //'@nuxtjs/pwa',
   ],
   /*
   ** Axios module configuration
