@@ -1,7 +1,8 @@
 import colors from 'vuetify/es5/util/colors'
+import { NuxtConfig } from '@nuxt/types'
 
-export default {
-  mode: 'universal',
+const nuxtConfig: NuxtConfig = {
+  ssr: true,
   /*
   ** Headers of the page
   */
@@ -98,3 +99,5 @@ export default {
     vendor: ['uikit']
   }
 }
+
+export default nuxtConfig
