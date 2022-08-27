@@ -7,21 +7,27 @@
   "private": false,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start -p 3080",
+    "build": "nuxi build",
+    "start": "cross-env PORT=3080 nuxi start",
     "generate": "nuxt generate"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/pwa": "^3.0.0-0",
-    "nuxt": "^2.15.8",
+    "cross-env": "^7.0.3",
+    "nuxt-edge": "^2.16.0-27616340.013f051b",
+    "postcss": "^8.4.16",
+    "postcss-preset-env": "^7.8.0",
     "vue-scrollto": "^2.20.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge",
     "@nuxt/types": "^2.15.8",
     "@nuxtjs/style-resources": "^1.2.1",
     "@nuxtjs/vuetify": "^1.12.3",
     "axios": "^0.27.2",
+    "buffer": "^6.0.3",
     "eslint": "^8.22.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",

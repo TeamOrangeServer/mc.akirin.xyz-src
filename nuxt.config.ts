@@ -1,7 +1,11 @@
+import { defineNuxtConfig } from "@nuxt/bridge";
 import colors from 'vuetify/es5/util/colors'
-import { NuxtConfig } from '@nuxt/types'
 
-const nuxtConfig: NuxtConfig = {
+export default defineNuxtConfig({
+  bridge: {
+    vite: false
+  },
+  target: 'server',
   ssr: true,
   /*
   ** Headers of the page
@@ -32,14 +36,12 @@ const nuxtConfig: NuxtConfig = {
   */
   plugins: [
   //  '~/plugins/uikit',
-    '~/plugins/vue-scrollto',
+    { src: '~/plugins/vue-scrollto', ssr: true },
   ],
   /*
   ** Nuxt.js dev-modules
   */
-  buildModules: [
-    '@nuxtjs/vuetify',
-  ],
+  buildModules: [],
   /*
   ** Nuxt.js modules
   */
@@ -48,6 +50,7 @@ const nuxtConfig: NuxtConfig = {
     '@nuxtjs/axios',
     '@nuxtjs/style-resources',
     //'@nuxtjs/pwa',
+    '@nuxtjs/vuetify',
   ],
   /*
   ** Axios module configuration
@@ -87,17 +90,5 @@ const nuxtConfig: NuxtConfig = {
       '~/assets/sass/style.scss'
     ]
   },*/
-  /*
-  ** Build configuration
-  */
-  build: {
-    /*
-    ** You can extend webpack config here
-    */
-    extend (config, ctx) {
-    },
-    vendor: ['uikit']
-  }
-}
-
-export default nuxtConfig
+  vite: {}
+})
